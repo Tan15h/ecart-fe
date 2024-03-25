@@ -1,4 +1,4 @@
-.nav{
+.navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -84,9 +84,44 @@
     display: none;
 }
 
+.nav-wishlist1 img{
+    width: 35px;
+}
+
+.nav-search {
+    position: relative;
+}
+
+.nav-search input[type="text"] {
+    width: 200px;
+    height: 35px;
+    padding: 5px 10px;
+    border: 1px solid #7a7a7a;
+    border-radius: 20px;
+    outline: none;
+    font-size: 16px;
+}
+
+.nav-search button {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 79px;
+    height: 45px;
+    border: none;
+    border-radius: 20px;
+    background-color: #FF4141;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+
+
 /* -------- media query---------- */
 @media(max-width:900px){
-    .nav{
+    .navbar{
         padding: 15px 40px;
     }
     .nav-menu{
@@ -95,7 +130,7 @@
 }
 
 @media(max-width:750px){
-    .nav{
+    .navbar{
         padding: 15px 20px;
     }
     .nav-login-cart{
@@ -129,7 +164,7 @@
 }
 
 @media(max-width:500px){
-    .nav{
+    .navbar{
         padding: 15px 15px;
     }
 

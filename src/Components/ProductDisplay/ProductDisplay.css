@@ -87,6 +87,28 @@
     font-weight: 600;
 }
 
+.productdisplay-right-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.productdisplay-right-buttons button {
+    padding: 20px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: #FF4141; /* Change color to match your design */
+    margin-bottom: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.productdisplay-right-buttons button:hover {
+    background: #FF4141; /* Change color to match your design */
+}
+
+
 /* ----- media query------- */
 
 
@@ -150,3 +172,4 @@
         font-size: 14px;
     }
 }
+

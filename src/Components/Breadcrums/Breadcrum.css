@@ -1,4 +1,4 @@
-.breadcrums{
+.breadcrum{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -10,12 +10,12 @@
 }
 
 @media(max-width:1024px){
-    .breadcrums{
+    .breadcrum{
         margin: 30px 8%;
     }
 }
 @media(max-width:800px){
-    .breadcrums{
+    .breadcrum{
         margin: 20px 5%;
     }
 }

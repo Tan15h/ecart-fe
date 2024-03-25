@@ -1,9 +1,8 @@
 import React from 'react'
 import './Footer.css'
-
 import footer_logo from '../Assets/logo_big.png'
 import instagram_icon from '../Assets/instagram_icon.png'
-import pintrest_icon from '../Assets/pintester_icon.png'
+import pintester_icon from '../Assets/pintester_icon.png'
 import whatsapp_icon from '../Assets/whatsapp_icon.png'
 
 const Footer = () => {
@@ -20,12 +19,12 @@ const Footer = () => {
         <li>About</li>
         <li>Contact</li>
       </ul>
-      <div className="footer-social-icons">
+      <div className="footer-social-icon">
         <div className="footer-icons-container">
             <img src={instagram_icon} alt="" />
         </div>
         <div className="footer-icons-container">
-            <img src={pintrest_icon} alt="" />
+            <img src={pintester_icon} alt="" />
         </div>
         <div className="footer-icons-container">
             <img src={whatsapp_icon} alt="" />
@@ -33,7 +32,8 @@ const Footer = () => {
       </div>
       <div className="footer-copyright">
         <hr />
-        <p>Copyright @ 2023 - All Right Reserved.</p>
+        <p>Copyright @ 2024 - All Right Reserved To TANISH C S.</p>
+        <p>INTERNSHIP TAKE HOME PROJECT</p>
       </div>
     </div>
   )
